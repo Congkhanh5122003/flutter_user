@@ -1,0 +1,34 @@
+import 'package:baiflutter/consts/consts.dart';
+import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
+
+Widget orderPlaceDetails({title1, title2, d1, d2}) {
+  return Padding(
+    padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),
+    child: Row(
+      children: [
+        Expanded(
+          flex: 2,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              "$title1".text.fontFamily(semibold).make(),
+              "$d1".text.color(redColor).fontFamily(semibold).make(),
+            ],
+          ),
+        ),
+        const SizedBox(width: 16), // Khoảng cách giữa hai cột
+        Expanded(
+          flex: 2,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              "$title2".text.fontFamily(semibold).make(),
+              "$d2".text.make(),
+            ],
+          ),
+        ),
+      ],
+    ),
+  );
+}

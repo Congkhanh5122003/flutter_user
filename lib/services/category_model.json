@@ -1,0 +1,76 @@
+{
+    "categories":[
+        {
+            "name": "Woman Dress",
+            "subcategory":[
+                "vay",
+                "Dam",
+                "Dong Ho"
+            ]
+        },
+        {
+            "name": "Men Clothing & Fashion",
+            "subcategory":[
+                "Quan",
+                "Ao",
+                "Dong Ho"
+            ]
+        },
+        {
+            "name": "Computer & Accessories",
+            "subcategory":[
+                "Iphone",
+                "SamSung",
+                "Xiaomi"
+            ]
+        },
+        {
+            "name": "AutoMobile",
+            "subcategory":[
+                "MSI",
+                "Acer",
+                "Asus"
+            ]
+        },
+        {
+            "name": "Kid's Toys",
+            "subcategory":[
+                "Ta",
+                "Sua",
+                "Do Choi"
+            ]
+        },
+        {
+            "name": "Sport",
+            "subcategory":[
+                "Giay",
+                "Phu Kien",
+                "Thiet Bi"
+            ]
+        },
+        {
+            "name": "Jewelery",
+            "subcategory":[
+                "Chen",
+                "Ban ghe",
+                "Dung cu an uong"
+            ]
+        },
+        {
+            "name": "Cellphone & Tab",
+            "subcategory":[
+                "Nhan",
+                "Day Chuyen",
+                "Vong Tay"
+            ]
+        },
+        {
+            "name": "Furniture",
+            "subcategory":[
+                "May hut bui",
+                "Loa",
+                "May Lanh"
+            ]
+        }
+    ]
+}
